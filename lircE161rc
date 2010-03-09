@@ -1,0 +1,79 @@
+###################
+# lircE161 buttons
+###################
+
+begin
+		button = command
+		config = $HOME/bin/2mp.sh %s
+		repeat = 0
+end
+
+begin
+		button = 2
+		prog = lircE161
+		config = [abc]
+		repeat = 0
+end
+
+begin
+		button = 3
+		prog = lircE161
+		config = [def]
+		repeat = 0
+end
+
+begin
+		button = 4
+		prog = lircE161
+		config = [ghi]
+		repeat = 0
+end
+
+begin
+		button = 5
+		prog = lircE161
+		config = [jkl]
+		repeat = 0
+end
+
+begin
+		button = 6
+		prog = lircE161
+		config = [mno]
+		repeat = 0
+end
+
+begin
+		button = 7
+		prog = lircE161
+		config = [pqrs]
+		repeat = 0
+end
+
+begin
+		button = 8
+		prog = lircE161
+		config = [tuv]
+		repeat = 0
+end
+
+begin
+		button = 9
+		prog = lircE161
+		config = [wxyz]
+		repeat = 0
+end
+
+begin
+		button = 0
+		prog = lircE161
+		config = space 
+		repeat = 0
+end
+
+begin
+		button = ok
+		prog = lircE161
+		config = done
+		repeat = 0
+end

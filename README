@@ -1,0 +1,33 @@
+
+lircE161 is a program that works in conjuction with lirc to launch your
+programs with custom arguments. You can setup it up as you like it. The
+sample configuration that comes with the program is setup to take inputs
+similarly to E.161 recommendation, aka predictive input usually used in
+mobile phones.
+
+CONFIGURATION
+
+The program requires a working lirc system with .lircrc and irexec.
+
+The programs contains the main source file lircE161.c. Compile this to
+get the main executible lircE161. The program on execution looks for the
+file .lircE161rc in the home directory.
+
+The .lircE161 should contain atleast an entry for the 'command'. Please
+see the included sample to see how to define the 'command'.
+
+COPYING
+
+This program is released under the GPLv3 license or at your option, a
+later version. Please see the COPYING file for details.
+
+AUTHORS
+
+lircE161 is written by Amit Dhingra. Please feel free to contact the
+author at mechanicalamit@gmail.com
+
+THANKS
+
+To all the open source contributors who make the fun possible.
+
+CHANGELOG
